@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="hex45_KleadF.master.cs" Inherits="hex45_hex45_KleadF" %>
+
+<!DOCTYPE html [
+    <!ENTITY nbsp "&#160;">
+
+]>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="cis2350.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <br />
+        <table>
+
+            <tr>
+
+                <td style="padding: 5px; background-color: #165960; vertical-align: top;">
+                    &#160;
+                </td>
+
+
+
+
+                <td style="padding: 5px; background-color: #19666e; vertical-align: top;">
+                    <asp:SiteMapPath ID="smpBreadCrumb" runat="server"></asp:SiteMapPath>
+
+                <%--</td>--%> </td>
+
+            </tr>
+
+
+            <tr>
+
+                <td style="padding: 5px; background-color: #1c737c; vertical-align: top;">
+                    <strong>Labs</strong><br />
+                    <ul>
+                        <li><a href="Lab01.html">Lab #1</a></li>
+                        <li><a href="Lab02.aspx">Lab #2</a></li>
+                        <li><a href="Lab03.aspx">Lab #3</a></li>
+                        <li><a href="Lab04.aspx">Lab #4</a></li>
+                        <li><a href="Lab06.aspx">Lab #6</a>
+
+                            <ul>
+                                <li><a href="Lab06a.aspx">Lab #6a</a></li>
+                                <li><a href="Lab06b.aspx">Lab #6b</a></li>
+                                <li><a href="Lab06c.aspx">Lab #6c</a></li>
+                                <li><a href="Lab06d.aspx">Lab #6d</a></li>
+                                <li><a href="Lab06e.aspx">Lab #6e</a></li>
+                            </ul>
+
+
+                        </li>
+                        <li><a href="Lab07.aspx">Lab #7</a></li>
+                        <li><a href="Lab08.aspx">Lab #8</a></li>
+                        <li><a href="Lab09.aspx">Lab #9</a></li>
+                        <li><a href="Lab10.aspx">Lab #10</a></li>
+                    </ul>
+
+
+                    
+                    <strong>Projects</strong><br />
+                    <ul>
+                        <li><a href="Project1.aspx">Project #1</a></li>
+                        <li><a href="Project2.aspx">Project #2</a></li>
+                        <li><a href="Project3.aspx">Project #3</a></li>
+                        <li><a href="Project4.aspx">Project #4</a></li>
+                        <li><a href="Project5.aspx">Project #5</a></li>
+                    </ul>
+                    
+
+                </td>
+
+
+
+                <td style="padding: 5px; background-color: #29a6b3; vertical-align: top;">        
+                    <asp:ContentPlaceHolder id="cphBody" runat="server"></asp:ContentPlaceHolder>
+                </td>
+
+            </tr>
+
+
+        </table>
+
+
+        <br /><br /><br /><br />
+
+
+        <img src="http://www.thatlink.com/classes/images/html5-css3.jpg" alt="Validate" usemap="#ValidationMap" />
+        <map name="ValidationMap">
+    	<area shape="rect" coords="0,0,90,79" alt="XHTML5 Validation"
+		href="http://www.thatlink.com/Classes/Public/Validate.aspx?type=xhtml5&amp;url=referrer" />
+	    <area shape="rect" coords="91,0,180,79" alt="CSS3 Validation"
+		href="http://www.thatlink.com/Classes/Public/Validate.aspx?type=css3&amp;url=referrer" />
+        </map>
+
+
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+-- One way to make a fix is by droping the table, making the changes and creating it again
+-- DROP TABLE hex45Cars
+
+CREATE TABLE hex45Cars
+(
+	Vin VARCHAR(17) NOT NULL PRIMARY KEY,
+	Make VARCHAR(15) NOT NULL,
+	Model VARCHAR(25) NOT NULL,
+	ModelYear DECIMAL(4,0) NOT NULL,
+	Color VARCHAR(4) NOT NULL,
+	LicensePlate VARCHAR(12) NOT NULL,
+	LicensePlateState VARCHAR(2) NOT NULL,
+	Odometer DECIMAL(7,1) NOT NULL,
+	PurchaseDate DATE NOT NULL,
+);
+
+-- Adding a column after the table has been created, needs a default value
+ALTER TABLE hex45Cars ADD TitleStatus VARCHAR(1) NOT NULL DEFAULT 'C';
+
+-- Changing a column
+ALTER TABLE hex45Cars ALTER COLUMN TitleStatus VARCHAR(3) NOT NULL;
+
+-- Getting rid of a column. If it has a default value it can't be dropped.
+ALTER TABLE hex45Cars DROP COLUMN Color;
+
+INSERT INTO hex45Cars VALUES ('RFF32DS344', 'Ford', 'F-150',  
+	2017, 'Red', 'XYZ123', 'IL', 323434.34, '4/5/2018');
+					
+
+INSERT INTO hex45Cars VALUES ('FF34DS344', 'Nissan', 'Altima',  
+	2017, 'BLK', 'XYZ123', 'IL', 323434.34, '6/7/2018');
+
+--DELETE FROM hex45Cars WHERE Vin = 'RFF32DS344';
+
+
+SELECT * FROM hex45Cars;

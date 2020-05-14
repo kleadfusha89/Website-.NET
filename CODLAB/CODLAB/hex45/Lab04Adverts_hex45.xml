@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/teamJuventus.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/Juventus_F.C.</NavigateUrl>
+    <AlternateText>Juventus</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamBayern Munich.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/FC_Bayern_Munich</NavigateUrl>
+    <AlternateText>Bayern Munich</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamBarcelona.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/FC_Barcelona</NavigateUrl>
+    <AlternateText>Barcelona</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamLiverpool.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/Liverpool_F.C.</NavigateUrl>
+    <AlternateText>Liverpool</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamManchester United.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/Manchester_United_F.C.</NavigateUrl>
+    <AlternateText>Manchester United</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamMilan.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/A.C._Milan</NavigateUrl>
+    <AlternateText>Milan</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamReal Madrid.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/Real_Madrid_CF</NavigateUrl>
+    <AlternateText>Real Madrid</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images/teamPorto.jpg</ImageUrl>
+    <NavigateUrl>https://en.wikipedia.org/wiki/FC_Porto</NavigateUrl>
+    <AlternateText>Porto</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+  
+  
+  
+</Advertisements>

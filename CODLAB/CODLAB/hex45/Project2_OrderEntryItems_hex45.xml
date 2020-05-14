@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
+<Items>
+	<Item  text="Select..." value="" />
+	<Item  text="Screw Driver - Slotted" value="3.99" />
+    <Item  text="Screw Driver - Phillips" value="3.98" />
+    <Item  text="Claw Hammer" value="12.99" />
+    <Item  text="Adjustable Wrench" value="5.75" />
+    <Item  text="Wire Cutters" value="4.94" />
+</Items>

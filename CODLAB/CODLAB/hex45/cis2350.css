@@ -1,0 +1,209 @@
+﻿body {
+    font: 15px verdana, sans-serif, calibri;
+    background-color: #dcdcdc
+}
+
+select {
+    font: 15px verdana, sans-serif, calibri;
+}
+
+h2 {
+    margin-left: 270px;
+}
+
+span.choices 
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+span.madLibResults {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.error {
+    background-color: #259aa6;
+    color: white;
+    font-style: oblique;
+
+}
+
+.errorRed {
+    color: red;
+    font-style: oblique;
+}
+
+.button {
+    background-color: #165960;
+    border: 2px solid;
+    border-radius: 250px;
+    color: #f0f8ff;
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-left: 230px;
+}
+
+.button:hover {
+        background-color: #f0f8ff;
+        color: #165960;
+}
+
+.mileageText {
+
+    float: left;
+    width: 230px;
+}
+
+
+.mileageResults {
+    text-align: center;
+ }
+
+.orderInfo {
+    float: left;
+    width: 139px;
+    margin-left: 66px;
+    position: absolute;
+}
+
+.billingDetails {
+    float: left;
+    width: 130px;
+}
+
+.txtSpacing 
+{
+    margin-bottom: 1px;
+    
+}
+
+li {
+    color: #0B253F;
+    margin: 5px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #29a6b3;
+}
+
+.invoiceTable {
+    border: 1px solid black;
+}
+
+
+table.invoiceTable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+   
+}
+table.invoiceTable th {
+    background: #b5cfd2;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+
+}
+table.invoiceTable td {
+	background:#dcdcdc;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+
+}
+
+
+table.lab8Table {
+    font-family: verdana,arial,sans-serif;
+    font-size: 11px;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+table.lab8Table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+}
+
+.reduceSize {
+    width: 50px;
+    height: 27px;
+}
+
+.reduceSize img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.floatLeft {
+    float: left;
+    width: 450px;
+    margin-left: 346px;
+    position: absolute;
+}
+
+
+.checkOutConfirmation {
+    float: left;
+    width: 450px;
+    margin-left: 190px;
+    color: darkblue;
+
+}
+
+
+
+.project4float {
+    display: inline-block;
+    width: 200px;
+    float: left;
+}
+
+
+
+
+.project4floatWLayout {
+    display: inline-block;
+}
+
+
+table.project4floatWLayout {
+    font-family: verdana,arial,sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+
+table.project4floatWLayout th {
+    background: #b5cfd2;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+
+table.project4floatWLayout td {
+    background: #dcdcdc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}

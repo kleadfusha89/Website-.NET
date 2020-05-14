@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<School>
+  <Student FirstName="Bob" LastName="Jones" BDate="2/19/1998">
+    <Class></Class>
+    <Class></Class>
+    <Class></Class>
+    <Class></Class>
+  </Student>
+  <Student></Student>
+  <Student></Student>
+  <Student></Student>
+  <Student></Student>
+  <Student></Student>
+  <Student></Student>
+  <Student></Student>
+  <Student></Student>
+  <Instructor>James Shoe</Instructor>
+  <Instructor>Michelle Smith</Instructor>
+  <Instructor></Instructor>
+  <Instructor></Instructor>
+  <Instructor></Instructor>
+  <Instructor></Instructor>
+  <Instructor></Instructor>
+</School>
